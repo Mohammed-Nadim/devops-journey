@@ -1,0 +1,21 @@
+name: DevOps CI Pipeline Test
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository Code
+      uses: actions/checkout@v4
+
+    - name: Run First Automated Shell Command
+      run: echo "Hello Nadim Bhai! Your DevOps CI/CD Pipeline is running successfully!"
+
+    - name: Check Current Date and System
+      run: |
+        echo "Running on OS:"
+        uname -a

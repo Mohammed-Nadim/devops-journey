@@ -10,3 +10,7 @@
 ### Day 9: Permissions & Ownership
 - Numeric Modes: r=4, w=2, x=1 (e.g., 755 = rwxr-xr-x, 644 = rw-r--r--)
 - Ownership: chown user:group filename
+
+### Day 10: Advanced Shell Scripting
+- Arguments: $1, $2 for positional inputs
+- Exit Codes: $? (0 = success, non-zero = error)

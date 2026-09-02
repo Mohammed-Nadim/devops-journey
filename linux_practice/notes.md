@@ -6,3 +6,7 @@
 - System Info: uname -a, hostname, uptime
 - Disk & Memory: df -h, free -h
 - Inspection: head, tail, cat
+
+### Day 9: Permissions & Ownership
+- Numeric Modes: r=4, w=2, x=1 (e.g., 755 = rwxr-xr-x, 644 = rw-r--r--)
+- Ownership: chown user:group filename

@@ -1,0 +1,5 @@
+# ==============================================================================
+# Automated System Audit & Observium Health Monitoring Schedule
+# Runs every day at 10:30 PM
+# ==============================================================================
+30 22 * * * /bin/bash /e/devopslearner/devops-journey/linux_practice/system_health_backup.sh >> /e/devopslearner/devops-journey/linux_practice/cron_execution.log 2>&1

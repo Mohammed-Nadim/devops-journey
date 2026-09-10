@@ -3,3 +3,7 @@
 - **grep**: Filtered specific error logs from application output.
 - **awk**: Extracted dynamic column values ($2, $3, $6) for structured reporting.
 - **sed**: Performed inline text replacement for log masking and configuration updates.
+
+## Mini Project: System Health Audit & Automated Backup Suite
+- Integrated Observium health check (`nc`), disk parsing (`awk`), error log extraction (`grep`/`awk`), and IP masking (`sed`).
+- Generated compressed system backup archives (`.tar.gz`) with git-ignored audit logs.

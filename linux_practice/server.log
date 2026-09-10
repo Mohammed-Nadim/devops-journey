@@ -1,0 +1,5 @@
+2026-09-09 10:00:01 INFO System booted successfully
+2026-09-09 10:02:15 ERROR Database connection failed user=admin ip=192.168.1.50
+2026-09-09 10:05:30 WARNING High memory usage detected threshold=85%
+2026-09-09 10:10:45 ERROR Disk full on /dev/sda1 user=root ip=192.168.1.60
+2026-09-09 10:15:00 INFO User logged in user=nadim
